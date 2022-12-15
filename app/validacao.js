@@ -4,9 +4,9 @@ function verificaSeOChutePossuiUmValorValido(chute) {
 	if (chuteForInvalido(numero)) {
 		if (chute.toUpperCase() === 'GAME OVER') {
 			document.body.innerHTML = `
-                <h2>Game Over!!!</h2>
+                <h2 class="game-over" >Game Over!!!</h2>
                 <h3>Pressione o botão para jogar novamente</h3>
-                <button id="jogar-novamente" class="btn-jogar" >Jogar novamente</button>
+                <button id="jogar-novamente" class="btn-jogar-lose" >Jogar novamente</button>
                 `;
 			document.body.style.backgroundColor = 'black';
 		} else {

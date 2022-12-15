@@ -1,7 +1,7 @@
 :root {
 	--font-family: 'Montserrat', sans-serif;
-	--bg-color: #171010;
-	--primary-color: #22a39f;
+	--bg-color: #0aa1dd;
+	--primary-color: #e8f9fd;
 }
 
 body {
@@ -43,9 +43,20 @@ h3 {
 }
 
 .btn-jogar {
-	padding: 8px 15px;
+	padding: 10px 20px;
 	border: 0;
 	background: var(--primary-color);
+    color: var(--bg-color);
 	border-radius: 5px;
 	margin-top: 20px;
+}
+.btn-jogar-lose {
+    padding: 10px 20px;
+	border: 0;
+    background: red;
+    border-radius: 5px;
+	margin-top: 20px;
+}
+.game-over {
+    color: red;
 }
